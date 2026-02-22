@@ -4,8 +4,6 @@ import java.util.HashSet;
 
 public class LngstSubstrngWRepeatingCharact {
         public int lengthOfLongestSubstring(String s) {
-
-
             HashSet<Character> set = new HashSet<>();
 
             int left = 0;
@@ -16,6 +14,7 @@ public class LngstSubstrngWRepeatingCharact {
                 while (set.contains(s.charAt(right))) {
                     set.remove(s.charAt(left));
                     left++;
+
                 }
 
                 set.add(s.charAt(right));
@@ -26,4 +25,5 @@ public class LngstSubstrngWRepeatingCharact {
             return maxLength;
         }
     }
+
 
