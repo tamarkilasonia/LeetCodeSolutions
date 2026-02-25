@@ -1,6 +1,7 @@
 package leetcode.solutions.math;
 
 import static leetcode.solutions.math.AddBinary.addBinary;
+import static leetcode.solutions.math.SqrtX.mySqrt;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,6 +28,13 @@ public class Main {
         String a2 = "1010";
         String b2 = "1011";
         System.out.println(addBinary(a2, b2)); // 10101
+
+        //SqrtX Day2
+        System.out.println(mySqrt(4));  // 2
+        System.out.println(mySqrt(8));  // 2
+        System.out.println(mySqrt(16)); // 4
+        System.out.println(mySqrt(1));  // 1
+        System.out.println(mySqrt(0));  // 0
     }
 
 }
