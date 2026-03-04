@@ -10,6 +10,8 @@ public class LengthofLastWord {
                 i--;
             }
 
+
+
             while (i >= 0 && s.charAt(i) != ' ') {
                 length++;
                 i--;
