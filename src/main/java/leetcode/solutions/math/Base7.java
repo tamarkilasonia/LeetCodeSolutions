@@ -7,6 +7,7 @@ public class Base7 {
         boolean negative = num < 0;
         num = Math.abs(num);
 
+
         StringBuilder result = new StringBuilder();
 
         while (num > 0) {
@@ -14,9 +15,13 @@ public class Base7 {
             num /= 7;
         }
 
+
+
+
         if (negative) {
             result.append("-");
         }
+
 
         return result.reverse().toString();
     }
