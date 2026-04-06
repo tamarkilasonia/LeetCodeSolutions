@@ -1,0 +1,18 @@
+package leetcode.solutions.string;
+
+public class RemoveElement {
+
+        public int removeElement(int[] nums, int val) {
+            int k = 0; // index for placing valid elements
+
+            for (int i = 0; i < nums.length; i++) {
+                if (nums[i] != val) {
+                    nums[k] = nums[i];
+                    k++;
+                }
+            }
+
+            return k;
+        }
+    }
+
