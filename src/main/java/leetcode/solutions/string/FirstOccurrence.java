@@ -12,6 +12,7 @@ public class FirstOccurrence {
                     j++;
                 }
 
+                    
                 if (j == m) {
                     return i;
                 }
