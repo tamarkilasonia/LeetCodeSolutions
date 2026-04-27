@@ -10,6 +10,7 @@ public class IntersectionofTwoLinkedLists {
             b = (b == null) ? headA : b.next;
         }
 
+        
         return a; // either intersection node or null
     }
 }
